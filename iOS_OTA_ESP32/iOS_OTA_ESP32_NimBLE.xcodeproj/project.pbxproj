@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C564792925BE75DC00126AA8 /* iOS_OTA_ESP32App.swift in Sources */ = {isa = PBXBuildFile; fileRef = C564792825BE75DC00126AA8 /* iOS_OTA_ESP32App.swift */; };
+		C564792B25BE75DC00126AA8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C564792A25BE75DC00126AA8 /* ContentView.swift */; };
+		C564792D25BE75DD00126AA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C564792C25BE75DD00126AA8 /* Assets.xcassets */; };
+		C564793025BE75DD00126AA8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C564792F25BE75DD00126AA8 /* Preview Assets.xcassets */; };
+		C564793925BE763500126AA8 /* MyHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C564793825BE763500126AA8 /* MyHelper.swift */; };
+		C564794025BE776C00126AA8 /* BluetoothLE.swift in Sources */ = {isa = PBXBuildFile; fileRef = C564793F25BE776C00126AA8 /* BluetoothLE.swift */; };
+		C564794725BE829A00126AA8 /* testfile.bin in Resources */ = {isa = PBXBuildFile; fileRef = C564794625BE829A00126AA8 /* testfile.bin */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C564792525BE75DC00126AA8 /* iOS_OTA_ESP32_NimBLE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_OTA_ESP32_NimBLE.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C564792825BE75DC00126AA8 /* iOS_OTA_ESP32App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_OTA_ESP32App.swift; sourceTree = "<group>"; };
+		C564792A25BE75DC00126AA8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C564792C25BE75DD00126AA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C564792F25BE75DD00126AA8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C564793125BE75DD00126AA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C564793825BE763500126AA8 /* MyHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyHelper.swift; sourceTree = "<group>"; };
+		C564793F25BE776C00126AA8 /* BluetoothLE.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothLE.swift; sourceTree = "<group>"; };
+		C564794625BE829A00126AA8 /* testfile.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = testfile.bin; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C564792225BE75DC00126AA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C564791C25BE75DC00126AA8 = {
+			isa = PBXGroup;
+			children = (
+				C564792725BE75DC00126AA8 /* iOS_OTA_ESP32_NimBLE */,
+				C564792625BE75DC00126AA8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C564792625BE75DC00126AA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C564792525BE75DC00126AA8 /* iOS_OTA_ESP32_NimBLE.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C564792725BE75DC00126AA8 /* iOS_OTA_ESP32_NimBLE */ = {
+			isa = PBXGroup;
+			children = (
+				C564792825BE75DC00126AA8 /* iOS_OTA_ESP32App.swift */,
+				C564792A25BE75DC00126AA8 /* ContentView.swift */,
+				C564793825BE763500126AA8 /* MyHelper.swift */,
+				C564792C25BE75DD00126AA8 /* Assets.xcassets */,
+				C564793125BE75DD00126AA8 /* Info.plist */,
+				C564793F25BE776C00126AA8 /* BluetoothLE.swift */,
+				C564793B25BE775A00126AA8 /* firmware */,
+				C564792E25BE75DD00126AA8 /* Preview Content */,
+			);
+			path = iOS_OTA_ESP32_NimBLE;
+			sourceTree = "<group>";
+		};
+		C564792E25BE75DD00126AA8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C564792F25BE75DD00126AA8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C564793B25BE775A00126AA8 /* firmware */ = {
+			isa = PBXGroup;
+			children = (
+				C564794625BE829A00126AA8 /* testfile.bin */,
+			);
+			path = firmware;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C564792425BE75DC00126AA8 /* iOS_OTA_ESP32_NimBLE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C564793425BE75DD00126AA8 /* Build configuration list for PBXNativeTarget "iOS_OTA_ESP32_NimBLE" */;
+			buildPhases = (
+				C564792125BE75DC00126AA8 /* Sources */,
+				C564792225BE75DC00126AA8 /* Frameworks */,
+				C564792325BE75DC00126AA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOS_OTA_ESP32_NimBLE;
+			productName = iOS_OTA_ESP32;
+			productReference = C564792525BE75DC00126AA8 /* iOS_OTA_ESP32_NimBLE.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C564791D25BE75DC00126AA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					C564792425BE75DC00126AA8 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = C564792025BE75DC00126AA8 /* Build configuration list for PBXProject "iOS_OTA_ESP32_NimBLE" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C564791C25BE75DC00126AA8;
+			productRefGroup = C564792625BE75DC00126AA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C564792425BE75DC00126AA8 /* iOS_OTA_ESP32_NimBLE */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C564792325BE75DC00126AA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C564794725BE829A00126AA8 /* testfile.bin in Resources */,
+				C564793025BE75DD00126AA8 /* Preview Assets.xcassets in Resources */,
+				C564792D25BE75DD00126AA8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C564792125BE75DC00126AA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C564792B25BE75DC00126AA8 /* ContentView.swift in Sources */,
+				C564792925BE75DC00126AA8 /* iOS_OTA_ESP32App.swift in Sources */,
+				C564793925BE763500126AA8 /* MyHelper.swift in Sources */,
+				C564794025BE776C00126AA8 /* BluetoothLE.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C564793225BE75DD00126AA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C564793325BE75DD00126AA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C564793525BE75DD00126AA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"iOS_OTA_ESP32_NimBLE/Preview Content\"";
+				DEVELOPMENT_TEAM = AL69NHXA3Y;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS_OTA_ESP32_NimBLE/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "be.hallberg.iOS-OTA-ESP32";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C564793625BE75DD00126AA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"iOS_OTA_ESP32_NimBLE/Preview Content\"";
+				DEVELOPMENT_TEAM = AL69NHXA3Y;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS_OTA_ESP32_NimBLE/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "be.hallberg.iOS-OTA-ESP32";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C564792025BE75DC00126AA8 /* Build configuration list for PBXProject "iOS_OTA_ESP32_NimBLE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C564793225BE75DD00126AA8 /* Debug */,
+				C564793325BE75DD00126AA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C564793425BE75DD00126AA8 /* Build configuration list for PBXNativeTarget "iOS_OTA_ESP32_NimBLE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C564793525BE75DD00126AA8 /* Debug */,
+				C564793625BE75DD00126AA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C564791D25BE75DC00126AA8 /* Project object */;
+}
