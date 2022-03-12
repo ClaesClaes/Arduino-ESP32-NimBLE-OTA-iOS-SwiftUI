@@ -6,8 +6,7 @@ Arduino example (ESP32 core 1.06) for BLE OTA on a ESP32 using an iOS app
 This is an demo on how to upload firmware (.bin file) from an iOS app to an ESP32.
 
 Using NimBLE stack (using ver 1.3.1) for substantially lower memory footprint.
-
-![Simulator Screen Shot - iPhone 12 - 2022-03-12 at 09 12 20](https://user-images.githubusercontent.com/10321738/158009951-38da13d8-cdd1-458f-b44e-d5fd3333789d.png)
+![Simulator Screen Shot - iPhone 12 - 2022-03-12 at 09 12 20](https://user-images.githubusercontent.com/10321738/158010035-edb0e682-6b7b-4eec-89e5-b711f492a2dc.png)
 
 iOS app shows upload transfer speed and elapsed time. Possible to set number of data chunks per write cycle to test optimal number of chunks before handshake signal needed from ESP32.
 
