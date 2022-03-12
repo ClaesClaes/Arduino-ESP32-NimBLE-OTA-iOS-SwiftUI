@@ -7,7 +7,9 @@ This is an demo on how to upload firmware (.bin file) from an iOS app to an ESP3
 
 Using NimBLE stack (using ver 1.3.1) for substantially lower memory footprint.
 
-iOS app shows upload transfer speed and elapsed time. Possible to set number of data chunks to test optimal number of chunks before handshake signal needed from ESP32.
+![Simulator Screen Shot - iPhone 12 - 2022-03-12 at 09 12 20](https://user-images.githubusercontent.com/10321738/158009951-38da13d8-cdd1-458f-b44e-d5fd3333789d.png)
+
+iOS app shows upload transfer speed and elapsed time. Possible to set number of data chunks per write cycle to test optimal number of chunks before handshake signal needed from ESP32.
 
 The app will auto connect to the ESP32 when it discovers the BLE service UUID of the ESP32 BLE device. It will also re-connect in situation when the ESP32 BLE device comes out of range and later returns in range.
 
